@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAQUETTE ARCHI</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- (header>(nav>div#logo{BR Architects}+ul>li*3))+main+footer -->
+
+    <header>
+      <nav>
+        <div id="logo">BR Architects</div>
+        <input type="checkbox" id="check" />
+
+        <label id="burger" for="check"><i class="fa-solid fa-bars"></i> </label>
+
+        <ul>
+          <li>Projects</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+
+      <div id="img-header">
+        <h1 class="archi">BR</h1>
+        <h1><span id="brimg">BR</span></h1>
+        <h1><span id="ARCHimg">Architectes</span></h1>
+        <h1 class="archi">Architectes</h1>
+      </div>
+      
+    </header>
+
+    <section id="Projects">
+      <h2>Projects</h2>
+      <div id="gallery">
+        <!-- (div(img+span{brick houses})img)*8 -->
+        <div>
+          <img src="./assets/img/house2.jpg" alt="" /><span>Summer house2</span>
+        </div>
+        <div>
+          <img src="./assets/img/house3.jpg" alt="" /><span>Summer house3</span>
+        </div>
+        <div>
+          <img src="./assets/img/house4.jpg" alt="" /><span>Summer house4</span>
+        </div>
+
+        <div>
+          <img src="./assets/img/house5.jpg" alt="" /><span>Summer house5</span>
+        </div>
+      </div>
+    </section>
+    <section id="About">
+      <h2>About</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt
+        in culpa qui officia deserunt mollit anim id est laborum consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <div id="cards">
+        <div>
+          <img src="./assets/img/team2.jpg" alt="john doe" />
+          <h3>John Doe</h3>
+          <h4>CEO & Founder</h4>
+          <button>Contact</button>
+        </div>
+
+        <div>
+          <img src="./assets/img/team1.jpg" alt="Jane Doe" />
+          <h3>Jane Doe</h3>
+          <h4>Architect</h4>
+          <button>Contact</button>
+        </div>
+
+        <div>
+          <img src="./assets/img/team3.jpg" alt="Mike Ross" />
+          <h3>Mike Ross</h3>
+          <h4>Architect</h4>
+          <button>Contact</button>
+          <div>
+            <img src="./assets/img/team4.jpg" alt="Dan Star" />
+            <h3>Dan Star</h3>
+            <h4>Architect</h4>
+            <button>Contact</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

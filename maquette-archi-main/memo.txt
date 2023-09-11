@@ -1,0 +1,12 @@
+propriétés utilisées :
+
+    background-image: Il définit l'image de fond pour l'élément #img-header.
+    background-position: center: Il centre l'image de fond horizontalement et verticalement.
+    height: 30vh: Il définit la hauteur de #img-header à 30% de la hauteur de la vue (viewport height).
+    background-repeat: no-repeat: Il empêche la répétition de l'image de fond.
+    background-size: cover: Il assure que l'image de fond couvre entièrement l'élément #img-header.
+    display: flex: Il active le modèle de disposition flexible (Flexbox) pour l'élément.
+    justify-content: center; align-items: center;: Ces propriétés Flexbox sont utilisées pour centrer le contenu (texte) horizontalement et verticalement à l'intérieur de #img-header.
+    margin-top: 55px;: Il ajoute une marge en haut de l'élément #img-header.
+
+Avec ces styles, l'image de fond sera centrée et le texte sera centré au milieu de l'image de fond dans #img-header.
